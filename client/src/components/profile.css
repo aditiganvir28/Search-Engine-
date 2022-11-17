@@ -1,0 +1,141 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.profile{
+
+    width: 60%;
+    margin-left: 20%;
+    height: 150vh;
+    background-size: cover;
+    background-position: center;
+    /* display: flex; */
+    align-items: center;
+}
+.profile-box{
+
+    background: rgba(142, 154, 194, 0.9);
+    text-align: center;
+    padding: 40px 90px;
+    color: whitesmoke;
+    position: relative;
+    margin-top: 2%;
+    border-radius: 10%;
+    height: 820px;
+
+}
+.icon{
+
+    height: 120px;
+    width: 120px;
+}
+.username{
+
+    margin-top: 20px;
+    font-size: 35px;
+    /* margin: 10px; */
+}
+.profile-box p{
+  margin-top: 21px;
+    text-align: center;
+    
+}
+/* .arrow{
+
+    font-weight: 200;
+
+} */
+.profile-box .info{
+
+   
+    color: whitesmoke;
+    margin: 60px;
+    font-size: 22px;
+    background-color: black;
+    padding: 50px 0;
+    margin: -90px -90px ;
+    margin-bottom: 50px;
+    margin-top: 65px;
+    border-radius: 10%;
+    
+    height: 600px;
+}
+.profile-box .info p{
+
+    margin-top: -5px;
+    font-weight: 900;
+}
+
+
+
+.profile-box .info .field button{
+
+    
+    width: 100%;
+    max-width: 150px;
+    
+    
+    /* margin-top: -15px; */
+    height: 40px;
+    color: whitesmoke;
+    font-size: 15px;
+    
+    border-radius: 60px;
+    padding: 10px 20px;
+   margin: 25px;
+    border: 3px solid rgba(142, 154, 194, 0.9);
+    padding: 4px;
+    background-color:rgba(142, 154, 194, 0.9);
+    border-radius: 10%;
+    
+  }
+  .profile-box .info .field button:hover{
+  
+    box-shadow: 1px 1px 6px white;
+    background-color: rgba(142, 154, 194, 0.9);
+    color: whitesmoke;
+  }
+  .profile-box .info .article h3{
+
+    font-size: 22px;
+    font-weight: 900;
+    margin: 50px;
+  }
+  .profile-box .info .article li{
+
+    margin-bottom: 30px;
+    list-style:disc;
+    color: whitesmoke;
+    margin: 5px 30px;
+    padding: -5px ;
+    text-align: left;
+  }
+
+  .profile-box .info .article button{
+
+    
+    width: 100%;
+    max-width: 90px;
+    height: 40px;
+    color: whitesmoke;
+    font-size: 15px;
+    border-radius: 60px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: 3px solid rgba(142, 154, 194, 0.9);
+    padding: 4px;
+    background-color:rgba(142, 154, 194, 0.9);
+    border-radius: 10%;
+    right: 0;
+    display:block;
+    margin-left: 600px;
+  }
+  .profile-box .info .article button:hover{
+  
+    box-shadow: 1px 1px 6px white;
+    background-color: rgba(142, 154, 194, 0.9);
+    color: whitesmoke;
+  }
+
